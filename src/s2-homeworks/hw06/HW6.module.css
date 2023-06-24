@@ -1,5 +1,34 @@
 .buttonsContainer {
+    margin-top: 30px;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttonsContainer button {
+    padding: 5px 24px;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+}
+
+.buttonsContainer .hw6Save {
+    width: 116px;
+    background: #0066CC;
+    color: #FFFFFF;
+}
+
+.buttonsContainer .hw6Restore {
+    width: 130px;
+    border: 1px solid #0066CC;
+    color: #0066CC;
+    background: #FFFFFF;
 }
 
 .editableSpanContainer {
+
 }

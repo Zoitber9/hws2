@@ -1,14 +1,33 @@
 .buttonsContainer {
+    margin-top: 27px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hw9button  {
+    width: 80px;
+}
+.hw9button:hover {
+    width: 80px;
 }
 
 .clock {
+    width: 200px;
 }
 
 .watch {
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .watch strong {
 }
 
 .more {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }

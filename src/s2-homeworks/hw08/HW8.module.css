@@ -1,23 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 .item {
+    border-top: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
 }
 
 .users {
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: right;
+}
+
+.hw8button {
+    width: 120px;
+}
+.hw8button:active, .hw8button:hover {
+    width: 120px;
 }
 
 .container {
+    width: 605px;
 }
 
 .thead {
+    height: 36px;
+    background: #E5E5E5;
+    font-weight: 700;
 }
 
 .nameCol {
+    width: 280px;
+    padding: 10px 0 10px 17px;
 }
 
 .ageCol {
+    width: 325px;
+    padding: 10px 0 10px 17px;
+}
+.item > .nameCol {
+    font-weight: 300;
+}
+.item > .ageCol {
+    font-weight: 500;
 }

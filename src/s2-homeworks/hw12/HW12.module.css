@@ -19,5 +19,11 @@ html {
 }
 
 .select {
+    color: var(--color);
+    background: var(--background);
+}
 
+.hw12 {
+    color: var(--color);
+    background: var(--background);
 }

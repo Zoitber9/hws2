@@ -1,3 +1,10 @@
 .loader {
     /*свг и/или анимация*/
+    width: 90px;
+    height: 90px;
+    animation: loader-spiner 1.5s infinite linear;
+}
+@keyframes loader-spiner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
